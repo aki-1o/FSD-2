@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let obj = {
+            name : "abc",
+            abg : 19,
+            present : true
+        }
+        console.log(obj)
+        document.writeln(obj.name)
+        document.writeln(obj["name"])
+
+        let obj2 = {
+            emp : ["abc", "def", "xyz"]
+        }
+        document.writeln(obj2.emp[2])
+
+        let obj3 = {
+            emp : {
+                name : "abc",
+                age : 19
+            }
+        }
+        document.writeln(obj3.emp.age + "<br>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

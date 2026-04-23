@@ -1,0 +1,29 @@
+<!-- write a script that prints hello with increasing size with increasing 50 mili s   . it should stop when font size reaches 250 px -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        size = 15
+        function add() {
+            obj = document.getElementById("demo")
+            obj.innerHTML = "Hello"
+            obj.style.color = "blue"
+            obj.style.fontSize = size + "px"
+
+            if(size <= 50) {
+                size ++
+            }
+        }
+
+        setInterval(add, 50)
+    </script>
+</body>
+</html>

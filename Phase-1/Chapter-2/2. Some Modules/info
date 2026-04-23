@@ -1,0 +1,4 @@
+# Mainly three types of core modules
+1. File system module **
+    1. synchronous (blocking)
+    2 NonSynchronous (Non blocking)
